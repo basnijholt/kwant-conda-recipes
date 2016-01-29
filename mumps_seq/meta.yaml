@@ -1,0 +1,22 @@
+package:
+  name: mumps
+  version: 5.0.1
+
+source:
+  fn: MUMPS_5.0.1.tar.gz
+  url: http://mumps.enseeiht.fr/MUMPS_5.0.1.tar.gz
+
+requirements:
+  build:
+    - gcc
+    - metis
+    - scotch5
+
+  run:
+    - gcc
+    - metis
+    - scotch5
+
+about:
+  home: http://mumps.enseeiht.fr/
+  license: Public domain
