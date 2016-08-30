@@ -3,9 +3,8 @@ package:
   version: "1.1.0"
 
 source:
-  fn: tinyarray-1.1.0.tar.gz
-  url: https://pypi.python.org/packages/source/t/tinyarray/tinyarray-1.1.0.tar.gz
-  md5: 3079f1dc3648f9060518765362360d7e
+  git_url: https://gitlab.kwant-project.org/kwant/tinyarray.git
+  git_tag: v1.1.0 
 
 requirements:
   build:
@@ -19,7 +18,7 @@ requirements:
     - nose
 
 about:
-  home: http://git.kwant-project.org/tinyarray/about/
+  home: https://gitlab.kwant-project.org/kwant/tinyarray
   license: BSD License
   summary: 'Arrays of numbers for Python, optimized for small sizes'
 
